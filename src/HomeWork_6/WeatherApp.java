@@ -1,7 +1,8 @@
 package HomeWork_6;/* Author Name: Cody Bishop
    Date: 04/05/2020
    Program: WeatherApp
-   Description:
+   Description: A Pre-designed application to utilize the WeatherObservation class. This application is designed to
+   create observations, generate random values, and access and print all the data for each instance of WeatherObservation
 */
 
 public class WeatherApp {

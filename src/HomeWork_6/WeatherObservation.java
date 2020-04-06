@@ -2,9 +2,11 @@ package HomeWork_6;
 /* Author Name: Cody Bishop
    Date: 04/05/2020
    Program: WeatherObservationClass
-   Description: A class Object to work in tandem with the WeatherApp.
+   Description: A class Object to work in tandem with the WeatherApp. This class Object will contain the data involved
+   in a weather observation.
 */
 public class WeatherObservation {
+    //Creation of all variables
     public double day;
     public double sequence;
     public double temp;
@@ -14,6 +16,7 @@ public class WeatherObservation {
     private static WeatherObservation[] obsArray = new WeatherObservation[100];
     public static int obsCount = 0;
 
+    // Constructor
     private WeatherObservation(double temp, double pressure, double dewPoint, double wind, double day, double sequence) {
         this.temp = temp;
         this.pressure = pressure;
@@ -23,16 +26,19 @@ public class WeatherObservation {
         this.sequence = sequence;
     }
 
+    //Method used to create an object of the class WeatherObservation
     public static void generateObservation(double temp, double pressure,
                                            double dewPoint, double wind, double day, double sequence) {
         obsArray[obsCount] = new WeatherObservation(temp, pressure, dewPoint, wind, day, sequence);
         obsCount++;
     }
 
+    //Method used to access the Array of Observation
     public static WeatherObservation getObservation(int i) {
         return obsArray[i];
     }
 
+    // A method used to format and return a string to print for the observation readout
     public String printDescription() {
         String printMe;
         String space = "    ";
