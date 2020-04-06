@@ -5,4 +5,5 @@ package HomeWork_6;
    Description: A class Object to work in tandem with the WeatherApp.
 */
 public class WeatherObservation {
+
 }
