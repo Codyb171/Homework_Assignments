@@ -35,10 +35,10 @@ public class WeatherObservation {
 
     public String printDescription() {
         String printMe;
-        String space = "   ";
-        String day = String.format("Day: %-4.1f, ", this.day);
-        String sequence = String.format("Reading: %-6.1f ", this.sequence);
-        String temp = String.format("[%-6.2f f]", this.temp);
+        String space = "    ";
+        String day = String.format("Day: %4.1f, ", this.day);
+        String sequence = String.format("Reading: %4.1f ", this.sequence);
+        String temp = String.format(" [%-6.2f f]", this.temp);
         String pressure = String.format("[%-6.2f mb]", this.pressure);
         String dewPoint = String.format("[%-6.2f deg]", this.dewPoint);
         String wind = String.format("[%-6.2f mph]", this.wind);
