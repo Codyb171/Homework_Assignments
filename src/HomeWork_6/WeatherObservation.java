@@ -1,8 +1,8 @@
-package HomeWork_6;/* Author Name: Cody Bishop
+package HomeWork_6;
+/* Author Name: Cody Bishop
    Date: 04/05/2020
    Program: WeatherObservationClass
-   Description
+   Description: A class Object to work in tandem with the WeatherApp.
 */
-
 public class WeatherObservation {
 }
