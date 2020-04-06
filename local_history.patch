@@ -1,0 +1,12 @@
+Index: src/HomeWork_6/Test.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/HomeWork_6/Test.java	(date 1586131420701)
++++ src/HomeWork_6/Test.java	(date 1586131420701)
+@@ -0,0 +1,4 @@
++package HomeWork_6;
++
++public class Test {
++}
